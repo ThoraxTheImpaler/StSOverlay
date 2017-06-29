@@ -1,0 +1,60 @@
+body {
+	-webkit-user-select: none;
+	font-family: "Commando";
+	color: #ffffff;
+}
+.main {
+	height: 1080px;
+	width: 1920px;
+	border-style: solid;
+	border-color: #ff0000;
+	background-image: url("DSC00828.jpg");
+	background-size: 1920px;
+}
+.topic {
+	font-size: 100px;
+	
+}
+ul {
+	margin-left:150px;
+	list-style-type: none;
+}
+ul#topiclist li{
+	display:inline;
+	margin-right: 100px;
+}
+li.active{
+	border-bottom: thick solid;
+	border-bottom-width: 10px;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#topicContainer{
+	height:75px;
+	margin-top: 800px;
+	margin-left: 150px;
+}
+#topicListContainer{
+	height: 75px;
+	overflow: hidden;
+}
+.currenttopic{
+	margin: 0 0 0 0;
+	font-size: 75px;
+}
+#firstitem{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+#topics {
+	margin: 0 0 0 0;
+	padding-top: 0;
+	display: inline;
+}
+p {
+	margin: 0 0 0 0;
+	float: left;
+	font-size: 75px;
+}
