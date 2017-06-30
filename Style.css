@@ -82,3 +82,18 @@ button {
 	height: 100px;
 	width: 200px;
 }
+#webcam{
+	margin-left: 100px;
+	margin-right: 100px;
+	top:300px;
+	position: absolute;
+}
+div#webcam div{
+	float: left;
+	width: 500px;
+	height: 550px;
+}
+.middlecam{
+	margin-left: 105px;
+	margin-right: 105px;
+}
