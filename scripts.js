@@ -13,6 +13,6 @@ $(document).ready(function(){
 	$('#NEXT, #PREVIOUS').click(function() {
 		x += 1 + $(this).is('#PREVIOUS') * -2;
 		x = Math.min(Math.max(x, 0), $lis.length - numToShow);
-		$lis.hide(500).slice(x, x + numToShow).show(500);
+		$lis.fadeOut(500).slice(x, x + numToShow).fadeIn(1200);
 	});
 });
