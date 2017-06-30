@@ -47,8 +47,9 @@ li.active{
 	letter-spacing: 1.5px;
 }
 #topicContainer{
+	position: absolute;
 	height:75px;
-	margin-top: 740px;
+	top:73%;
 	margin-left: 150px;
 }
 #topicListContainer{
