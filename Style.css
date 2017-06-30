@@ -59,11 +59,11 @@ li.active{
 	font-size: 75px;
 }
 #firstitem{
-	padding: 0 0 0 0;
+	padding-top: 0px;
 	margin: 0 0 0 0;
 }
 #item{
-	padding-top: 15px;
+	padding-top: 0px;
 }
 #topics {
 	margin: 0 0 0 0;
