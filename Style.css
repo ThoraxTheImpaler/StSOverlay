@@ -49,7 +49,7 @@ li.active{
 #topicContainer{
 	position: absolute;
 	height:75px;
-	top:73%;
+	top:950px;
 	margin-left: 150px;
 }
 #topicListContainer{
@@ -76,4 +76,9 @@ p {
 	font-weight: 700;
 	margin: 0 0 0 0;
 	font-size: 50px;
+}
+button {
+	margin-top: 50px;
+	height: 100px;
+	width: 200px;
 }
