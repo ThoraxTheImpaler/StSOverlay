@@ -1,7 +1,11 @@
+html{
+	font-size: 16px;
+}
 body {
 	-webkit-user-select: none;
 	font-family: "Fairview Regular";
 	color: #ffffff;
+	margin: 0;
 }
 .main {
 	height: 1080px;
@@ -12,7 +16,7 @@ body {
 	background-size: 1920px;
 }
 .topic {
-	font-size: 100px;
+	font-size: 6.25em;
 }
 @font-face {
 	font-family: Fairview Regular;
@@ -27,6 +31,7 @@ ul#topiclist {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+	-webkit-padding-start: 0px;
 }
 ul#topiclist li{
 	display:inline-flex;
@@ -36,8 +41,8 @@ ul#topiclist li{
 	margin-right: 0 auto;
 }
 li.active{
-	border-bottom: thick solid;
-	border-bottom-width: 10px;
+	border-top: thick solid;
+	border-top-width: 10px;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -48,16 +53,16 @@ li.active{
 }
 #topicContainer{
 	position: absolute;
-	height:75px;
-	top:950px;
-	margin-left: 150px;
+	height:5em;
+	top:60em;
+	margin-left: 9.375em;
 }
 #topicListContainer{
-	height: 75px;
+	height: 5em;
 	overflow: hidden;
 }
 .currenttopic{
-	font-size: 75px;
+	font-size: 4.75em;
 }
 #firstitem{
 	padding-top: 0px;
@@ -75,7 +80,7 @@ p {
 	font-family: "Fairview SmallCaps";
 	font-weight: 700;
 	margin: 0 0 0 0;
-	font-size: 50px;
+	font-size: 3.125em;
 }
 button {
 	margin-top: 50px;
@@ -83,17 +88,15 @@ button {
 	width: 200px;
 }
 #webcam{
-	margin-left: 100px;
-	margin-right: 100px;
-	top:300px;
+	margin: 0 6.25em;
+	top: 18.75em;
 	position: absolute;
 }
 div#webcam div{
-	float: left;
-	width: 500px;
-	height: 550px;
+	display: inline-block;
+	width: 31.25em;
+	height: 35.375em;
 }
 .middlecam{
-	margin-left: 105px;
-	margin-right: 105px;
+	margin: 0 105px;
 }
