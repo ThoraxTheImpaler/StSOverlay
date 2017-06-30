@@ -1,6 +1,6 @@
 body {
 	-webkit-user-select: none;
-	font-family: "Commando";
+	font-family: "Fairview Regular";
 	color: #ffffff;
 }
 .main {
@@ -13,15 +13,25 @@ body {
 }
 .topic {
 	font-size: 100px;
-	
+}
+@font-face {
+	font-family: Fairview Regular;
+	src: url("Fairview_Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: Fairview SmallCaps;
+	src: url("Fairview_SmallCaps.otf") format("opentype");
 }
 ul {
 	margin-left:150px;
 	list-style-type: none;
 }
 ul#topiclist li{
-	display:inline;
-	margin-right: 100px;
+	display:inline-flex;
+	flex-flow: row;
+	align-items: baseline;
+	justify-content: space-between;
+	margin-right: 0 auto;
 }
 li.active{
 	border-bottom: thick solid;
@@ -31,9 +41,12 @@ li.active{
     -o-transition: all 0.5s;
 	transition: all 0.5s;
 }
+.FUCKINGLEADING {
+	letter-spacing: 1.5px;
+}
 #topicContainer{
 	height:75px;
-	margin-top: 800px;
+	margin-top: 740px;
 	margin-left: 150px;
 }
 #topicListContainer{
@@ -55,7 +68,8 @@ li.active{
 	padding: 0 0 0 0;
 }
 p {
+	font-family: "Fairview SmallCaps";
+	font-weight: 700;
 	margin: 0 0 0 0;
-	float: left;
-	font-size: 75px;
+	font-size: 50px;
 }
