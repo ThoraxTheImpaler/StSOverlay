@@ -11,9 +11,6 @@ body {
 	background-image: url("DSC00828.jpg");
 	background-size: 1920px;
 }
-.topic {
-	font-size: 100px;
-}
 @font-face {
 	font-family: Fairview Regular;
 	src: url("Fairview_Regular.otf") format("opentype");
@@ -22,8 +19,22 @@ body {
 	font-family: Fairview SmallCaps;
 	src: url("Fairview_SmallCaps.otf") format("opentype");
 }
+ul#topiclist-vertical {
+	margin: 35px 0 0 0;
+	font-size: 100px;
+	list-style-type: none;
+}
+ul#topiclist-vertical li.active{
+	padding-left: 10px;
+	border-left: thick solid;
+	border-left-width: 10px;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
 ul#topiclist {
-	/*margin-left:150px;*/
+	font-size: 100px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
@@ -35,7 +46,7 @@ ul#topiclist li{
 	/*justify-content: space-between;*/
 	margin-right: 0 auto;
 }
-li.active{
+ul#topiclist li.active{
 	border-bottom: thick solid;
 	border-bottom-width: 10px;
 	-webkit-transition: all 0.5s;
@@ -82,18 +93,19 @@ button {
 	height: 100px;
 	width: 200px;
 }
-#webcam{
+#webcam-horizontal{
+	width: 1920px;
 	margin-left: 100px;
 	margin-right: 100px;
 	top:300px;
 	position: absolute;
 }
-div#webcam div{
+div#webcam-horizontal div{
 	float: left;
 	width: 500px;
 	height: 550px;
 }
-.middlecam{
+.middlecam-horizontal{
 	margin-left: 105px;
 	margin-right: 105px;
 }
