@@ -15,9 +15,6 @@ body {
 	background-image: url("DSC00828.jpg");
 	background-size: 1920px;
 }
-.topic {
-	font-size: 6.25em;
-}
 @font-face {
 	font-family: Fairview Regular;
 	src: url("Fairview_Regular.otf") format("opentype");
@@ -26,8 +23,22 @@ body {
 	font-family: Fairview SmallCaps;
 	src: url("Fairview_SmallCaps.otf") format("opentype");
 }
+ul#topiclist-vertical {
+	margin: 35px 0 0 0;
+	font-size: 100px;
+	list-style-type: none;
+}
+ul#topiclist-vertical li.active{
+	padding-left: 10px;
+	border-left: thick solid;
+	border-left-width: 10px;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
 ul#topiclist {
-	/*margin-left:150px;*/
+	font-size: 100px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
@@ -40,7 +51,7 @@ ul#topiclist li{
 	/*justify-content: space-between;*/
 	margin-right: 0 auto;
 }
-li.active{
+ul#topiclist li.active{
 	border-top: thick solid;
 	border-top-width: 10px;
 	-webkit-transition: all 0.5s;
@@ -87,16 +98,22 @@ button {
 	height: 100px;
 	width: 200px;
 }
-#webcam{
-	margin: 0 6.25em;
-	top: 18.75em;
-	position: absolute;
-}
 div#webcam div{
 	display: inline-block;
 	width: 31.25em;
 	height: 35.375em;
 }
-.middlecam{
+
+#webcam-horizontal{
+	width: auto;
 	margin: 0 105px;
+	top:300px;
+	position: absolute;
+}
+	float: left;
+	width: 500px;
+	height: 550px;
+}
+.middlecam-horizontal{
+		margin: 0 105px;
 }
