@@ -1,7 +1,11 @@
+html{
+	font-size: 16px;
+}
 body {
 	-webkit-user-select: none;
 	font-family: "Fairview Regular";
 	color: #ffffff;
+	margin: 0;
 }
 .main {
 	height: 1080px;
@@ -39,6 +43,7 @@ ul#topiclist {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+	-webkit-padding-start: 0px;
 }
 ul#topiclist li{
 	display:inline-flex;
@@ -48,8 +53,8 @@ ul#topiclist li{
 	margin-right: 0 auto;
 }
 ul#topiclist li.active{
-	border-bottom: thick solid;
-	border-bottom-width: 10px;
+	border-top: thick solid;
+	border-top-width: 10px;
 	-webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -67,6 +72,7 @@ ul#topiclist li.active{
 }
 #topicContainer-main{
 	position: absolute;
+<<<<<<< HEAD
 	height:75px;
 	top:950px;
 	margin-left: 100px;
@@ -76,13 +82,18 @@ ul#topiclist li.active{
 	height:75px;
 	top:950px;
 	margin-left: 300px;
+=======
+	height:5em;
+	top:60em;
+	margin-left: 9.375em;
+>>>>>>> 921d0510897f73ac30445f43802de80a17fad623
 }
 #topicListContainer{
-	height: 75px;
+	height: 5em;
 	overflow: hidden;
 }
 .currenttopic{
-	font-size: 75px;
+	font-size: 4.75em;
 }
 #firstitem{
 	padding-top: 0px;
@@ -100,26 +111,31 @@ p {
 	font-family: "Fairview SmallCaps";
 	font-weight: 700;
 	margin: 0 0 0 0;
-	font-size: 50px;
+	font-size: 3.125em;
 }
 button {
 	margin-top: 50px;
 	height: 100px;
 	width: 200px;
 }
+div#webcam div{
+	display: inline-block;
+	width: 31.25em;
+	height: 35.375em;
+}
+
 #webcam-horizontal{
-	width: 1920px;
-	margin-left: 100px;
-	margin-right: 100px;
+	width: auto;
+	margin: 0 105px;
 	top:300px;
 	position: absolute;
 }
-div#webcam-horizontal div{
 	float: left;
 	width: 500px;
 	height: 550px;
 }
 .middlecam-horizontal{
+<<<<<<< HEAD
 	margin-left: 105px;
 	margin-right: 105px;
 }
@@ -136,3 +152,7 @@ div#webcam-vertical div{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+=======
+		margin: 0 105px;
+}
+>>>>>>> 921d0510897f73ac30445f43802de80a17fad623
