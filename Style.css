@@ -39,6 +39,7 @@ ul#topiclist {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-around;
+	-webkit-padding-start: 0px;
 }
 ul#topiclist li{
 	display:inline-flex;
