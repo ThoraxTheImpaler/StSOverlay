@@ -34,6 +34,23 @@ ul#topiclist-vertical li.active{
     -o-transition: all 0.5s;
 	transition: all 0.5s;
 }
+.hide{
+	display: none!important;
+}
+ul#RANDO {
+	margin-top: 50px;
+	top: 0px;
+	left: 508px;
+	position: absolute;
+	font-size: 200px;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	-webkit-padding-start: 0px;
+}
+.listitem{
+	text-align: center;
+}
 ul#topiclist {
 	font-size: 100px;
 	list-style-type: none;
@@ -42,11 +59,11 @@ ul#topiclist {
 	-webkit-padding-start: 0px;
 }
 ul#topiclist li{
-	display:inline-flex;
+	display:table;
 	flex-flow: row;
 	align-items: baseline;
 	/*justify-content: space-between;*/
-	margin-right: 0 auto;
+	/*width: 640px;*/
 }
 ul#topiclist li.active{
 	border-bottom: thick solid;

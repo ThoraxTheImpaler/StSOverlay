@@ -6,6 +6,20 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 	});
 
+	var d = document.getElementById("RANDO");
+	var f = document.getElementById("topiclist");
+
+	$('#TOPICOFF').click(function() {
+		f.className += " hide";
+		d.className = "";
+	});
+
+	$('#TOPICON').click(function() {
+		d.className += " hide";
+		f.className = "";
+	});
+
+
 	//Scroll through topic list
 	x = 0, numToShow = 1, numToIncrement = 1;
 	var $lis = $('#topics').find('li');
